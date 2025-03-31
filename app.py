@@ -16,8 +16,8 @@ import pickle
 import matplotlib.pyplot as plt
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
-gemini_api_key = "AIzaSyABP0FhpPcNotV7TqlUw38Qm0YpAovfoIY"
-serper_api_key = "00bed6629055f888ce9b8a4d47d1f17dab6214d7"
+gemini_api_key = st.secrets["gemini_api_key"]
+serper_api_key = st.secrets["serper_api_key"]
 genai.configure(api_key=gemini_api_key)
 st.set_page_config(page_title="Fin-AI-lytics", layout="wide")
 st.title("Fin-AI-lytics")
