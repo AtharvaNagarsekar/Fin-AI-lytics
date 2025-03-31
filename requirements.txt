@@ -1,0 +1,8 @@
+streamlit 
+google-generativeai
+tensorflow
+scikit-learn
+matplotlib
+seaborn
+xgboost
+lightgbm
